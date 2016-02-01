@@ -1,0 +1,18 @@
+@footer-height-lg: 65px;
+@footer-color: @color-blue;
+
+#footer {
+  background-color: lighten(@footer-color, 15%);
+  height: @footer-height-lg;
+  .xs({
+    height: 50px;
+  });
+  #text {
+    position: relative;
+    top: 50%;
+    left: 50%;
+    color: white;
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
+}

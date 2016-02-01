@@ -1,0 +1,46 @@
+@color-blue: #4A97CC;
+@color-green: #3c763d;
+@color-red: #C04033;
+@color-white: #f2f3f4;
+@color-black: #333;
+
+body {
+  min-width: 500px;
+  background: url("../../../content/images/cloud.png") no-repeat;
+  background-color: #DCEFF5;
+
+  .container {
+    background-color: @color-white;
+    .box-shadow(0px 0px 57px 13px rgba(0,0,0,0.44));
+  }
+  .color-blue {
+    color: @color-blue;
+  }
+
+  .color-green {
+    color: @color-green;
+  }
+
+  .color-red {
+    color: @color-red;
+  }
+
+  hr.topic {
+    .size(max-width, 200px, 20px);
+    border: 3px solid @color-blue;
+    margin-bottom: 60px;
+  }
+
+  hr.block {
+    border: 1px solid black;
+  }
+
+  .topic-head {
+    color: #101010;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 60px;
+  }
+}
+
