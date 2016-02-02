@@ -1,14 +1,79 @@
+@gradient: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
+@h2-size-ratio: 4px;
+@h2-size: 30px;
+
+@h3-size-ratio: 2px;
+@h3-size: 20px;
+
+
 #landing {
-  .fotorama__nav {
-    margin-top: -30px;
-    z-index: 20;
+
+  position: relative;
+//  height: calc(100% ~"-" @navbar-logo-img-lg + @navbar-logo-img-margin * 2);
+
+  h2 {
+    .size(font-size, @h2-size, @h2-size-ratio);
   }
-  .fotorama__dot {
-    border-color: #eee;
-    box-shadow: 0 1px 0 rgba(0, 0, 0, .5);
+
+  h3 {
+    .size(font-size, @h3-size, @h3-size-ratio);
   }
-  .fotorama__active .fotorama__dot {
-    background-color: #eee;
-    box-shadow: 0 -1px 0 rgba(0, 0, 0, .5);
+
+  #slider {
+    background-position-x: 50%;
+    background-position-y: 50%;
+    background-size: cover;
+    background-repeat: no-repeat;
+//    height: 340px;
+    position: relative;
   }
- }
+
+  img { // just with image !
+    object-fit: cover;  // картинка  масштабируется
+    position: relative;
+    z-index: -1;
+    .size(height, 340px, 30px);
+    width: 100%;
+  }
+
+  .item {
+    background: @gradient;
+  }
+
+
+  #upper {
+    color: white;
+    position: absolute;
+
+    top: 50%;
+    .xs({
+      top: 30%;
+      transform: translate(-50%, -30%);
+    });
+
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+    z-index: 1;
+
+    /*.row > div {
+      padding: 0;
+    }*/
+
+    #info {
+      padding: 0 20px;
+      margin-top: 100px;
+      margin-bottom: 110px;
+      .md({
+        margin-bottom: 100px;
+      });
+      .sm({
+        margin-bottom: 90px;
+      });
+      .xs({
+        margin-bottom: 20px;
+        margin-top: 90px;
+      });
+    }
+  }
+}

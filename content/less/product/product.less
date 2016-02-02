@@ -1,13 +1,54 @@
 #product {
   margin-top: 20px;
-  .image-holder {
-    .size(height, 260px, 30px);
+  img {
+    .size(height, 200px, 30px);
+    object-fit: cover;  // картинка  масштабируется
+    width: 100%;
   }
 
-  img {
-    object-fit: cover;  // картинка  масштабируется
-    height: 100%;
-    width: 100%;
+  .service {
+    .size(margin-bottom, 30px, 4px);
+  }
+
+  .inner-image {
+    position: relative;
+    a:before {
+      background: @color-blue;
+      bottom: 0;
+      content: '';
+      display: block;
+      height: 4px;
+      left: 0;
+      opacity: 1;
+      margin: auto;
+      position: absolute;
+      right: 0;
+      width: 0;
+      -moz-transition: 0.4s;
+      -o-transition: 0.4s;
+      -webkit-transition: 0.4s;
+      transition: 0.4s;
+      z-index: 20;
+    }
+
+    a:hover:before {
+      width: 100%;
+      -moz-transition: 0.4s;
+      -o-transition: 0.4s;
+      -webkit-transition: 0.4s;
+      transition: 0.4s;
+    }
+  }
+
+  h5{
+    .size(font-size, 16px, 1px);
+    font-weight: bold;
+    color: @color-black;
+  }
+
+  p {
+    color: lighten(@color-black, 10%);
+    text-align: justify;
   }
 
 }

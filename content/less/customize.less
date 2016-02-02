@@ -4,7 +4,15 @@
 @color-white: #f2f3f4;
 @color-black: #333;
 
+@p-size-ratio: 0.5px;
+@p-size: 12px;
+
 body {
+  p {
+    line-height: 1.5;
+    .size(font-size, @p-size, @p-size-ratio);
+  }
+
   min-width: 500px;
   background: url("../../../content/images/cloud.png") no-repeat;
   background-size: contain;

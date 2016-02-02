@@ -1,5 +1,4 @@
 #sales {
-  margin-top: 20px;
   .image-holder {
 //    .size(height, 150px, 0px);
 //    border: 1px solid @color-blue;
@@ -7,13 +6,48 @@
   }
 
   .sales-holder {
+    img {
+      .box-shadow(0px 4px 12px 1px rgba(0,0,0,0.75));
+    }
 //    padding: 0 15px 0 15px;
   }
 
-  .timer {
-    background-color: rgba(74, 151, 204, 0.21);
-    height: 95px;
+  .timer-container {
+    background-color: #ff2616;
+    .gradient(top, rgba(255,38,22,1) 0%, rgba(255,38,22,1) 36%, rgba(181,0,0,1) 100%);
+    .border-radius(15px);
+
+    .vcenter-text {
+      position: absolute;
+
+    }
+
+    .hurry {
+      top: 50%;
+      left: 0%;
+      transform: translate(5%, -50%);
+      .size(font-size, 30px, 5px);
+      text-transform: uppercase;
+      color: white;
+      font-weight: bold;
+    }
+
+    .period {
+      top: 50%;
+      transform: translate(10%, -50%);
+      .size(font-size, 25px, 4.5px);
+      text-transform: uppercase;
+      color: white;
+      font-weight: bold;
+    }
+
+    .vcenter {
+      display: inline-block;
+      vertical-align: middle;
+      float: none;
+    }
   }
+
 
   img {
     object-fit: fill;  // картинка  масштабируется
@@ -21,8 +55,8 @@
     width: 100%;
   }
 
-  .example {
-    width: 350px;
+  .timeCircles {
+    .size(width, 410px, 60px);
     height: auto;
     margin: 0 auto;
   }

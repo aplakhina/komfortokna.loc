@@ -5,15 +5,15 @@
 @navbar-content-img-sm: @navbar-content-img-md - @navbar-content-img-ratio;
 @navbar-content-img-xs: @navbar-content-img-sm - @navbar-content-img-ratio;
 
-@navbar-menu-font-ratio: 2px;
+@navbar-menu-font-ratio: 1px;
 @navbar-menu-font-lg: 14px;
 @navbar-menu-font-md: @navbar-menu-font-lg - @navbar-menu-font-ratio;
 @navbar-menu-font-sm: @navbar-menu-font-md - @navbar-menu-font-ratio;
-@navbar-menu-font-xs: @navbar-menu-font-sm - @navbar-menu-font-ratio;
+@navbar-menu-font-xs: @navbar-menu-font-md - 1.5px;
 
 @navbar-mobile-button-width: 65px;
 @navbar-mobile-button-height: 35px;
-@navbar-mobile-button-margin-top: (@navbar-content-img-md +  (@navbar-content-img-margin * 2) - @navbar-mobile-button-height) / 2;
+@navbar-mobile-button-margin-top: (@navbar-content-img-sm +  @navbar-content-img-margin * 2 - @navbar-mobile-button-height) / 2;
 
 .center.navbar .nav,		// center navigation
 .center.navbar .nav > li {
@@ -41,11 +41,15 @@
   }
 
 nav.navbar {
+
   .box-shadow(0px 5px 11px 0px rgba(50, 50, 50, 0.08));
   background-color: rgba(255, 255, 255, 0.5);
   margin: 0;
   .navbar-header { /* Left block, where logo image and button mobile. */
     #mobile-button {
+      float: none;	/* Important for centering button */
+      margin-right: 0;
+
       margin-bottom: 0;
       margin-top: @navbar-mobile-button-margin-top;
       width: @navbar-mobile-button-width;
@@ -83,10 +87,8 @@ nav.navbar {
   line-height: @navbar-content-img-sm + @navbar-content-img-margin * 2;
 },
 {
-  padding: 0 30px;
+  padding: 10px 30px;
   font-size: @navbar-menu-font-xs; /* Collapsed-mobile font */
-  padding-top: 10px; /* Padding size of collasing-mobile menu */
-  padding-bottom: 10px;
 });
   }
   }

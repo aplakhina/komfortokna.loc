@@ -9,11 +9,13 @@ function getHeader() {
 
 function getResources() {
     $resources["scripts"] = array(
+        "owl.carousel/owl.carousel.js",
         "fotorama/fotorama.js",
         "timerCircles/TimeCircles.js"
     );
 
     $resources["styles"] = array(
+        "owl.carousel/assets/owl.carousel.css",
         "fotorama/fotorama.css",
         "timerCircles/TimeCircles.css"
     );
