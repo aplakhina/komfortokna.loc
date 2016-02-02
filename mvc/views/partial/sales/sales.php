@@ -27,7 +27,7 @@
                             <div class="vcenter-text period">Акция продлится:</div>
                         </div>
                         <div class="col-md-6 col-sm-6 col-xs-6 timeCirclesParent">
-                            <div class="timeCircles" data-timer="900"></div>
+                            <div class="timeCircles"></div>
                         </div>
                         <div class="col-md-3 col-sm-3 col-xs-3 text-center">
                             <div class="vcenter-text hurry">Спешите!</div>

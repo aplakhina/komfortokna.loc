@@ -10,9 +10,9 @@
     <ignored path=".idea/dataSources.local.xml" />
     <file path="/sales.less" changelist="66150810-e0c4-488c-bf6b-64428483a5fa" time="1454362792968" ignored="false" />
     <file path="/sales.php" changelist="66150810-e0c4-488c-bf6b-64428483a5fa" time="1454362433594" ignored="false" />
-    <file path="$PROJECT_DIR$/build/css/home/index.css" changelist="66150810-e0c4-488c-bf6b-64428483a5fa" time="1454380726547" ignored="false" />
+    <file path="$PROJECT_DIR$/build/css/home/index.css" changelist="66150810-e0c4-488c-bf6b-64428483a5fa" time="1454382870381" ignored="false" />
     <file path="/global-styles.less" changelist="66150810-e0c4-488c-bf6b-64428483a5fa" time="1454358074531" ignored="false" />
-    <file path="/sales.js" changelist="66150810-e0c4-488c-bf6b-64428483a5fa" time="1454363061654" ignored="false" />
+    <file path="/sales.js" changelist="66150810-e0c4-488c-bf6b-64428483a5fa" time="1454383747088" ignored="false" />
     <file path="/navbar.less" changelist="66150810-e0c4-488c-bf6b-64428483a5fa" time="1454366157497" ignored="false" />
     <file path="/navbar.php" changelist="66150810-e0c4-488c-bf6b-64428483a5fa" time="1454369577118" ignored="false" />
     <file path="/landing.less" changelist="66150810-e0c4-488c-bf6b-64428483a5fa" time="1454381256795" ignored="false" />
@@ -40,15 +40,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="customize.less" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/content/less/customize.less">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="6" column="18" selection-start="128" selection-end="128" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="controller.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/mvc/core/controller.php">
           <provider selected="true" editor-type-id="text-editor">
@@ -67,10 +58,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="global-styles.less" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="global-styles.less" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/content/less/global-styles.less">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="10" column="12" selection-start="167" selection-end="167" vertical-scroll-proportion="0.030797102">
+            <state line="10" column="12" selection-start="167" selection-end="167" vertical-scroll-proportion="-0.68">
               <folding />
             </state>
           </provider>
@@ -103,11 +94,23 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="landing.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/mvc/views/partial/landing/landing.php">
+      <file leaf-file-name="sales.js" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/scripts/blocks/sales/sales.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="7" column="60" selection-start="359" selection-end="380" vertical-scroll-proportion="0.0">
+            <state line="60" column="7" selection-start="1975" selection-end="1975" vertical-scroll-proportion="1.1755319">
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="sales.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/mvc/views/partial/sales/sales.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="29" column="52" selection-start="1469" selection-end="1469" vertical-scroll-proportion="-15.038462">
+              <folding>
+                <element signature="n#style#0;n#section#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#2;n#div#0;n#section#0;n#!!top" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -143,8 +146,6 @@
         <option value="$PROJECT_DIR$/libs/fileManager/samples/viewSample.php" />
         <option value="$PROJECT_DIR$/toDo.txt" />
         <option value="$PROJECT_DIR$/mvc/views/shared/layout.php" />
-        <option value="$PROJECT_DIR$/mvc/views/partial/sales/sales.php" />
-        <option value="$PROJECT_DIR$/scripts/blocks/sales/sales.js" />
         <option value="$PROJECT_DIR$/content/less/sales/sales.less" />
         <option value="$PROJECT_DIR$/content/less/navbar/navbar.less" />
         <option value="$PROJECT_DIR$/mvc/views/partial/navbar/navbar.php" />
@@ -156,6 +157,8 @@
         <option value="$PROJECT_DIR$/mvc/views/partial/product/product.php" />
         <option value="$PROJECT_DIR$/content/less/landing/landing.less" />
         <option value="$PROJECT_DIR$/content/less/global-styles.less" />
+        <option value="$PROJECT_DIR$/mvc/views/partial/sales/sales.php" />
+        <option value="$PROJECT_DIR$/scripts/blocks/sales/sales.js" />
       </list>
     </option>
   </component>
@@ -263,6 +266,54 @@
               <option name="myItemId" value="scripts" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="blocks" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sales" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="www" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="komfortokna.loc" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="scripts" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="blocks" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="landing" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="www" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="komfortokna.loc" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="scripts" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="blocks" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -301,6 +352,32 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="partial" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="www" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="komfortokna.loc" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mvc" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="partial" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sales" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -429,6 +506,28 @@
               <option name="myItemId" value="content" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="less" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sales" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="www" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="komfortokna.loc" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="content" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
@@ -502,7 +601,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="784" extended-state="1" />
+    <frame x="-8" y="-8" width="1382" height="784" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -598,21 +697,11 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/scripts/frameworks/owl.carousel/assets/owl.carousel.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/content/less/global-mixins.less">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="14" selection-start="8" selection-end="14" vertical-scroll-proportion="73.44">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/content/less/sales/sales.less">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="8" selection-start="8" selection-end="8" vertical-scroll-proportion="0.0" />
+        <state line="0" column="8" selection-start="8" selection-end="8" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/mvc/views/partial/navbar/navbar.php">
@@ -635,13 +724,6 @@
     <entry file="file://$PROJECT_DIR$/mvc/views/partial/landing/landing.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="7" column="60" selection-start="359" selection-end="380" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/scripts/blocks/landing/landing.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="27" selection-start="165" selection-end="165" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
@@ -697,7 +779,31 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/content/less/global-styles.less">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="12" selection-start="167" selection-end="167" vertical-scroll-proportion="0.030797102">
+        <state line="10" column="12" selection-start="167" selection-end="167" vertical-scroll-proportion="-0.68">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scripts/blocks/landing/landing.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="27" selection-start="165" selection-end="165" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mvc/views/partial/sales/sales.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="29" column="52" selection-start="1469" selection-end="1469" vertical-scroll-proportion="-15.038462">
+          <folding>
+            <element signature="n#style#0;n#section#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#2;n#div#0;n#section#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scripts/blocks/sales/sales.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="60" column="7" selection-start="1975" selection-end="1975" vertical-scroll-proportion="1.1755319">
           <folding />
         </state>
       </provider>
