@@ -10,14 +10,14 @@
     <ignored path=".idea/dataSources.local.xml" />
     <file path="/sales.less" changelist="66150810-e0c4-488c-bf6b-64428483a5fa" time="1454362792968" ignored="false" />
     <file path="/sales.php" changelist="66150810-e0c4-488c-bf6b-64428483a5fa" time="1454362433594" ignored="false" />
-    <file path="$PROJECT_DIR$/build/css/home/index.css" changelist="66150810-e0c4-488c-bf6b-64428483a5fa" time="1454382870381" ignored="false" />
+    <file path="$PROJECT_DIR$/build/css/home/index.css" changelist="66150810-e0c4-488c-bf6b-64428483a5fa" time="1454385699356" ignored="false" />
     <file path="/global-styles.less" changelist="66150810-e0c4-488c-bf6b-64428483a5fa" time="1454358074531" ignored="false" />
     <file path="/sales.js" changelist="66150810-e0c4-488c-bf6b-64428483a5fa" time="1454383747088" ignored="false" />
     <file path="/navbar.less" changelist="66150810-e0c4-488c-bf6b-64428483a5fa" time="1454366157497" ignored="false" />
     <file path="/navbar.php" changelist="66150810-e0c4-488c-bf6b-64428483a5fa" time="1454369577118" ignored="false" />
-    <file path="/landing.less" changelist="66150810-e0c4-488c-bf6b-64428483a5fa" time="1454381256795" ignored="false" />
+    <file path="/landing.less" changelist="66150810-e0c4-488c-bf6b-64428483a5fa" time="1454383997781" ignored="false" />
     <file path="/landing.js" changelist="66150810-e0c4-488c-bf6b-64428483a5fa" time="1454367764443" ignored="false" />
-    <file path="/landing.php" changelist="66150810-e0c4-488c-bf6b-64428483a5fa" time="1454374956246" ignored="false" />
+    <file path="/landing.php" changelist="66150810-e0c4-488c-bf6b-64428483a5fa" time="1454385609250" ignored="false" />
     <file path="/product.php" changelist="66150810-e0c4-488c-bf6b-64428483a5fa" time="1454380689981" ignored="false" />
     <file path="/product.less" changelist="66150810-e0c4-488c-bf6b-64428483a5fa" time="1454377507945" ignored="false" />
     <file path="/customize.less" changelist="66150810-e0c4-488c-bf6b-64428483a5fa" time="1454376273352" ignored="false" />
@@ -70,7 +70,7 @@
       <file leaf-file-name="landing.less" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/content/less/landing/landing.less">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="7" column="0" selection-start="144" selection-end="144" vertical-scroll-proportion="-4.76">
+            <state line="9" column="16" selection-start="172" selection-end="172" vertical-scroll-proportion="-6.12">
               <folding />
             </state>
           </provider>
@@ -88,16 +88,25 @@
       <file leaf-file-name="landing.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/scripts/blocks/landing/landing.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="5" column="27" selection-start="165" selection-end="165" vertical-scroll-proportion="0.0">
+            <state line="9" column="24" selection-start="281" selection-end="281" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="sales.js" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="sales.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/scripts/blocks/sales/sales.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="60" column="7" selection-start="1975" selection-end="1975" vertical-scroll-proportion="1.1755319">
+            <state line="60" column="7" selection-start="1975" selection-end="1975" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="landing.php" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/mvc/views/partial/landing/landing.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="31" column="66" selection-start="1546" selection-end="1546" vertical-scroll-proportion="0.5862069">
               <folding />
             </state>
           </provider>
@@ -124,15 +133,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="product.less" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/content/less/product/product.less">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="1" column="19" selection-start="30" selection-end="30" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
     </leaf>
   </component>
   <component name="FindManager">
@@ -150,15 +150,15 @@
         <option value="$PROJECT_DIR$/content/less/navbar/navbar.less" />
         <option value="$PROJECT_DIR$/mvc/views/partial/navbar/navbar.php" />
         <option value="$PROJECT_DIR$/mvc/views/home/index.php" />
-        <option value="$PROJECT_DIR$/scripts/blocks/landing/landing.js" />
-        <option value="$PROJECT_DIR$/mvc/views/partial/landing/landing.php" />
         <option value="$PROJECT_DIR$/content/less/customize.less" />
         <option value="$PROJECT_DIR$/content/less/product/product.less" />
         <option value="$PROJECT_DIR$/mvc/views/partial/product/product.php" />
-        <option value="$PROJECT_DIR$/content/less/landing/landing.less" />
         <option value="$PROJECT_DIR$/content/less/global-styles.less" />
         <option value="$PROJECT_DIR$/mvc/views/partial/sales/sales.php" />
         <option value="$PROJECT_DIR$/scripts/blocks/sales/sales.js" />
+        <option value="$PROJECT_DIR$/content/less/landing/landing.less" />
+        <option value="$PROJECT_DIR$/scripts/blocks/landing/landing.js" />
+        <option value="$PROJECT_DIR$/mvc/views/partial/landing/landing.php" />
       </list>
     </option>
   </component>
@@ -404,6 +404,32 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="product" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="www" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="komfortokna.loc" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mvc" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="partial" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="landing" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -721,13 +747,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/mvc/views/partial/landing/landing.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="60" selection-start="359" selection-end="380" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/content/less/customize.less">
       <provider selected="true" editor-type-id="text-editor">
         <state line="6" column="18" selection-start="128" selection-end="128" vertical-scroll-proportion="0.0">
@@ -745,13 +764,6 @@
     <entry file="file://$PROJECT_DIR$/mvc/views/partial/product/product.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="49" column="90" selection-start="2527" selection-end="2527" vertical-scroll-proportion="-2.6153846">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/content/less/landing/landing.less">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="0" selection-start="144" selection-end="144" vertical-scroll-proportion="-4.76">
           <folding />
         </state>
       </provider>
@@ -784,13 +796,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/scripts/blocks/landing/landing.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="27" selection-start="165" selection-end="165" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/mvc/views/partial/sales/sales.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="29" column="52" selection-start="1469" selection-end="1469" vertical-scroll-proportion="-15.038462">
@@ -803,7 +808,28 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/scripts/blocks/sales/sales.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="60" column="7" selection-start="1975" selection-end="1975" vertical-scroll-proportion="1.1755319">
+        <state line="60" column="7" selection-start="1975" selection-end="1975" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/content/less/landing/landing.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="16" selection-start="172" selection-end="172" vertical-scroll-proportion="-6.12">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scripts/blocks/landing/landing.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="24" selection-start="281" selection-end="281" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mvc/views/partial/landing/landing.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="31" column="66" selection-start="1546" selection-end="1546" vertical-scroll-proportion="0.5862069">
           <folding />
         </state>
       </provider>

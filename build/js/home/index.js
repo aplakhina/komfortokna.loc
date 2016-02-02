@@ -6,7 +6,7 @@ $(document).ready(function(){
         autoplaySpeed: 3000,
         autoplayTimeout: 5000,
         smartSpeed: 1000,
-        animateOut: 'fadeOut',
+//        animateOut: 'fadeOut',
         touchDrag: true,
         mouseDrag: true,
         dots: false
