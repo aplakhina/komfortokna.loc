@@ -4,15 +4,7 @@
 @color-white: #f2f3f4;
 @color-black: #333;
 
-@p-size-ratio: 0.5px;
-@p-size: 12px;
-
 body {
-  p {
-    line-height: 1.5;
-    .size(font-size, @p-size, @p-size-ratio);
-  }
-
   min-width: 500px;
   background: url("../../../content/images/cloud.png") no-repeat;
   background-size: contain;
@@ -42,6 +34,29 @@ body {
 
   hr.block {
     border: 1px solid black;
+  }
+
+  .title-block {
+    margin-top: 20px;
+    margin-bottom: 20px;
+
+    .title-container {
+      .border-radius(15px);
+      .size(height, 107px, 10px);
+      background: #8cd3ff; /* Old browsers */
+      background: -moz-linear-gradient(top, #8cd3ff 12%, #4a97cc 83%);
+      background: -webkit-linear-gradient(top, #8cd3ff 12%,#4a97cc 83%);
+      background: linear-gradient(to bottom, #8cd3ff 12%,#4a97cc 83%);
+
+      .title-text {
+        color: #101010;
+        text-transform: uppercase;
+        font-weight: bold;
+        text-align: center;
+        color: white;
+        margin-top: 35px;
+      }
+    }
   }
 
   .topic-head {

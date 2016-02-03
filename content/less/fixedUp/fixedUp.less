@@ -1,0 +1,22 @@
+#fixedUp {
+  .fixed-arrow {
+    position: fixed;
+    bottom: 5%;
+    left: 3%;
+    z-index: 1;
+  }
+
+  img {
+    background: @color-white;
+    .size(width, 75px, 12px);
+
+    border: 5px solid @color-red;
+    border-radius: 100px;
+
+    &:hover {
+      transition: background 0.5s ease;
+    //      background: @color-grey;
+      border: 5px solid @color-blue;
+    }
+  }
+ }

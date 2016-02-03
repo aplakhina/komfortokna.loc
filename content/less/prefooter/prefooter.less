@@ -1,0 +1,62 @@
+#prefooter-simple {
+  background-color: darken(@color-blue, 5%);
+  color: white;
+    .size(padding-top, 20px, 4px);
+    .size(padding-bottom, 25px, 4px);
+
+  .contact {
+    margin-top: 30px;
+  }
+
+  a {
+    color: white;
+    cursor: pointer;
+  }
+
+  .icon {
+    text-align: right;
+  }
+
+  .glyphicon{
+    .size(font-size, 35px, 5px);
+    color: @color-red;
+  }
+
+  h5 {
+    margin-top: 0;
+    font-weight: bold;
+    text-transform: uppercase;
+  }
+
+  #send {
+    .form-control {
+      border-radius: 0px;
+      box-shadow: none;
+    }
+
+    button {
+      color: white;
+      border: 0;
+      background-color: @color-red;
+      border-radius: 0;
+      font-weight: bold;
+
+      transition: all .3s;
+      &:hover {
+        background-color: lighten(@color-red, 10%);
+        transition: all.3s;
+      }
+    }
+
+    .has-error .form-control, .has-error {
+      border-width: 2px;
+      .placeholderStyle({
+        color: @color-red;
+      });
+    }
+
+    .success {
+      .size(margin-top, 100px, 10px);
+    }
+  }
+}

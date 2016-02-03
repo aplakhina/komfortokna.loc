@@ -51,8 +51,7 @@
 
                 if(!file_exists($blockFile)) {
                     $this->createFolder($blockPath);
-                    $sample = file_get_contents("libs/fileManager/samples/viewSample.php");
-                    file_put_contents($blockFile, "<section id='" .$val["name"] ."'>\r\n" .$sample ."\r\n</section>");
+                    file_put_contents($blockFile, "<section id='" .$val["name"] ."'>\r\n</section>");
                 }
             }
         }

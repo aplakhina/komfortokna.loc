@@ -4,7 +4,7 @@ $(document).ready(function(){
         items: 1,
         autoplay: true,
         autoplaySpeed: 3000,
-        autoplayTimeout: 5000,
+        autoplayTimeout: 7000,
         smartSpeed: 1000,
 //        animateOut: 'fadeOut',
         touchDrag: true,

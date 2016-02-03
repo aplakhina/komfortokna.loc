@@ -1,2 +1,22 @@
-#contacts { 
- }
+#contacts {
+
+  .contact-text {
+    color: @color-red;
+    .size(font-size, 25px, 4px);
+  }
+
+
+  img {
+    border-radius: 100px;
+    background: rgba(124, 122, 123, 0.58);
+    height: auto;
+    border: 3px solid @color-red;
+    .size(width, 95px, 12px);
+    &:hover {
+      transition: background 0.5s ease;
+//      background: @color-grey;
+      border: 3px solid @color-blue;
+    }
+  }
+
+}

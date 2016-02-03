@@ -8,6 +8,7 @@
 
     include_once "libs/lessCss/less.php";
     include_once "libs/mailer/PHPMailerAutoload.php";
+    include_once "libs/sendMail/sendMail.php";
     include_once "libs/fileManager/fileManager.php";
 
     include_once "config.php";

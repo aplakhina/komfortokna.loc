@@ -1,0 +1,29 @@
+#fixedContacts {
+  .fixed-contacts {
+    position: fixed;
+    bottom: 5%;
+    right: 3%;
+    z-index: 1;
+  }
+
+  #phone-fixed {
+    background: #8AC149;
+  }
+
+  #mail-fixed {
+    margin-top: 15px;
+    background: #4A97CC;
+  }
+
+  img {
+    .size(width, 85px, 12px);
+    border: 5px solid @color-white;
+    border-radius: 100px;
+
+    &:hover {
+      transition: background 0.5s ease;
+    //      background: @color-grey;
+      border: 5px solid @color-red;
+    }
+  }
+ }

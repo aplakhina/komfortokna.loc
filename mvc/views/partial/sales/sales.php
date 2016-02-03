@@ -23,13 +23,13 @@
             <div class="col-md-12">
                 <div class="timer-container">     <!-- Чтобы background-color не цеплял padding -->
                     <div class="row row-eq-height">
-                        <div class="col-md-3 col-sm-3 col-xs-3 text-center">
+                        <div class="col-md-3 col-sm-3 col-xs-3 text-center vertical-col">
                             <div class="vcenter-text period">Акция продлится:</div>
                         </div>
                         <div class="col-md-6 col-sm-6 col-xs-6 timeCirclesParent">
                             <div class="timeCircles"></div>
                         </div>
-                        <div class="col-md-3 col-sm-3 col-xs-3 text-center">
+                        <div class="col-md-3 col-sm-3 col-xs-3 text-center vertical-col">
                             <div class="vcenter-text hurry">Спешите!</div>
                         </div>
                     </div>
