@@ -23,22 +23,22 @@
                      data-transition="slide"
                      data-auto="false"
                      data-clicktransition="crossfade">
-                    <img src="<?php echo URL;?>content/images/w6.png">
+                    <img src="<?php echo URL;?>content/images/w6.jpg">
                     <img src="<?php echo URL;?>content/images/w22.jpg">
                     <img src="<?php echo URL;?>content/images/w10.jpg">
                     <img src="<?php echo URL;?>content/images/w11.jpg">
                     <img src="<?php echo URL;?>content/images/w19.jpg">
                     <img src="<?php echo URL;?>content/images/w15.jpg">
                     <img src="<?php echo URL;?>content/images/w9.jpg">
-                    <img src="<?php echo URL;?>content/images/w0.png">
-                    <img src="<?php echo URL;?>content/images/w3.png">
+                    <img src="<?php echo URL;?>content/images/w0.jpg">
+                    <img src="<?php echo URL;?>content/images/w3.jpg">
                     <img src="<?php echo URL;?>content/images/w12.jpg">
                     <img src="<?php echo URL;?>content/images/w14.jpg">
                     <img src="<?php echo URL;?>content/images/w16.jpg">
                     <img src="<?php echo URL;?>content/images/w17.jpg">
                     <img src="<?php echo URL;?>content/images/w18.jpg">
                     <img src="<?php echo URL;?>content/images/w4.png">
-                    <img src="<?php echo URL;?>content/images/w7.png">
+                    <img src="<?php echo URL;?>content/images/w7.jpg">
                     <img src="<?php echo URL;?>content/images/w20.jpg">
                     <img src="<?php echo URL;?>content/images/w21.jpg">
                 </div>
